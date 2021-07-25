@@ -88,7 +88,7 @@
             <div class="subtitle"><?php the_field('my_name') ?></div>
             <h1 class="title title_mt9"><?php the_field('who_i') ?></h1>
                 <a href="<?php the_field('link_1') ?>" class="promo__link"><button class="button"><?php the_field('promo_text-link_1') ?></button></a>
-                <a href="<?php the_field('link_2') ?>" class="promo__link"><button  class="button button_transparent"><?php the_field('promo_text-link_1') ?></button></a>
+                <a href="<?php the_field('link_2') ?>" class="promo__link"><button  class="button button_transparent"><?php the_field('promo_text-link_2') ?></button></a>
             </div>
     </section>
     <section class="aboutme" id="aboutme">
