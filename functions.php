@@ -2,6 +2,12 @@
 function korobskix_scripts() {
     if(is_page( '178' )){
         wp_enqueue_style( 'fmc-style' , get_template_directory_uri() . '/assets/styles/page-fmc.css');
+        wp_deregister_style('painting-style');
+        wp_deregister_style('painting-boot-style');
+        wp_deregister_style('bringitus-style');
+        wp_deregister_style( 'irvas-style' );
+        wp_deregister_style( 'irvas-slick-theme' );
+        wp_deregister_style( 'irvas-slick' );
         wp_deregister_style( 'food-style' );
         wp_deregister_style('icrowdme-style');
         wp_deregister_style( 'korobskix-style' );
@@ -16,11 +22,20 @@ function korobskix_scripts() {
         wp_deregister_script('jquery-mirgate');
         wp_deregister_script('icrowdme-script');
         wp_deregister_script( 'food-script' );
+        wp_deregister_script( 'irvas-script' );
+        wp_deregister_script('bringitus-script');
+        wp_deregister_script('painting-script');
         wp_enqueue_script( 'fmc-script' , get_template_directory_uri() . '/assets/js/fmc.js', array(), null , true );
     }
     if(is_page( '173' )){
         wp_enqueue_style( 'pulse-style' , get_template_directory_uri() . '/assets/styles/page-pulse.css');
         wp_enqueue_style( 'anim-style' , 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+        wp_deregister_style('painting-style');
+        wp_deregister_style('painting-boot-style');
+        wp_deregister_style('bringitus-style');
+        wp_deregister_style( 'irvas-style' );
+        wp_deregister_style( 'irvas-slick-theme' );
+        wp_deregister_style( 'irvas-slick' );
         wp_deregister_style( 'food-style' );
         wp_deregister_style('icrowdme-style');
         wp_deregister_style( 'korobskix-style' );
@@ -31,6 +46,9 @@ function korobskix_scripts() {
         wp_deregister_script( 'jquery' );
         wp_deregister_script('icrowdme-script');
         wp_deregister_script( 'food-script' );
+        wp_deregister_script( 'irvas-script' );
+        wp_deregister_script('bringitus-script');
+        wp_deregister_script('painting-script');
         wp_register_script( 'jquery','https://code.jquery.com/jquery-3.6.0.min.js' );
         wp_enqueue_script('jquery');
         wp_register_script( 'jquery-mirgate' , 'https://code.jquery.com/jquery-migrate-1.2.1.min.js');
@@ -41,6 +59,12 @@ function korobskix_scripts() {
     }
     if(is_page( '175' )){
         wp_enqueue_style( 'uber-style' , get_template_directory_uri() . '/assets/styles/page-uber.css');
+        wp_deregister_style('painting-style');
+        wp_deregister_style('painting-boot-style');
+        wp_deregister_style('bringitus-style');
+        wp_deregister_style( 'irvas-style' );
+        wp_deregister_style( 'irvas-slick-theme' );
+        wp_deregister_style( 'irvas-slick' );
         wp_deregister_style( 'food-style' );
         wp_deregister_style('icrowdme-style');
         wp_deregister_style( 'korobskix-style' );
@@ -55,10 +79,19 @@ function korobskix_scripts() {
         wp_deregister_script('jquery-mirgate');
         wp_deregister_script('icrowdme-script');
         wp_deregister_script( 'food-script' );
+        wp_deregister_script( 'irvas-script' );
+        wp_deregister_script('bringitus-script');
+        wp_deregister_script('painting-script');
         wp_enqueue_script( 'uber-script' , get_template_directory_uri() . '/assets/js/uber.js', array(), null , true );
     }
     if(is_page( '2' )){
         wp_enqueue_style('korobskix-style' , get_stylesheet_uri());
+        wp_deregister_style('painting-style');
+        wp_deregister_style('painting-boot-style');
+        wp_deregister_style('bringitus-style');
+        wp_deregister_style( 'irvas-style' );
+        wp_deregister_style( 'irvas-slick-theme' );
+        wp_deregister_style( 'irvas-slick' );
         wp_deregister_style( 'food-style' );
         wp_deregister_style('icrowdme-style');
         wp_deregister_style( 'uber-style' );
@@ -72,10 +105,19 @@ function korobskix_scripts() {
         wp_deregister_script('jquery-mirgate');
         wp_deregister_script('icrowdme-script');
         wp_deregister_script( 'food-script' );
+        wp_deregister_script( 'irvas-script' );
+        wp_deregister_script('bringitus-script');
+        wp_deregister_script('painting-script');
         wp_enqueue_script( 'korobskix-script' , get_template_directory_uri() . '/assets/js/script.js', array(), null , true );
     }
     if(is_page( '228' )){
         wp_enqueue_style( 'icrowdme-style' , get_template_directory_uri() . '/assets/styles/page-icrowdme.css');
+        wp_deregister_style('painting-style');
+        wp_deregister_style('painting-boot-style');
+        wp_deregister_style('bringitus-style');
+        wp_deregister_style( 'irvas-style' );
+        wp_deregister_style( 'irvas-slick-theme' );
+        wp_deregister_style( 'irvas-slick' );
         wp_deregister_style( 'food-style' );
         wp_deregister_style('uber-style');
         wp_deregister_style( 'korobskix-style' );
@@ -90,10 +132,19 @@ function korobskix_scripts() {
         wp_deregister_script('jquery-mirgate');
         wp_deregister_script('uber-script');
         wp_deregister_script( 'food-script' );
+        wp_deregister_script( 'irvas-script' );
+        wp_deregister_script('bringitus-script');
+        wp_deregister_script('painting-script');
         wp_enqueue_script( 'icrowdme-script' , get_template_directory_uri() . '/assets/js/icrowdme.js', array(), null , true );
     }
     if(is_page( '231' )){
         wp_enqueue_style( 'food-style' , get_template_directory_uri() . '/assets/styles/page-food.css');
+        wp_deregister_style('painting-style');
+        wp_deregister_style('painting-boot-style');
+        wp_deregister_style('bringitus-style');
+        wp_deregister_style( 'irvas-style' );
+        wp_deregister_style( 'irvas-slick-theme' );
+        wp_deregister_style( 'irvas-slick' );
         wp_deregister_style('icrowdme-style');
         wp_deregister_style('uber-style');
         wp_deregister_style( 'korobskix-style' );
@@ -108,7 +159,119 @@ function korobskix_scripts() {
         wp_deregister_script('jquery-mirgate');
         wp_deregister_script('uber-script');
         wp_deregister_script( 'icrowdme-script' );
+        wp_deregister_script( 'irvas-script' );
+        wp_deregister_script('bringitus-script');
+        wp_deregister_script('painting-script');
         wp_enqueue_script( 'food-script' , get_template_directory_uri() . '/assets/js/food.js', array(), null , true );
+    }
+
+    if(is_page( '240' )){
+        wp_enqueue_style( 'irvas-style' , get_template_directory_uri() . '/assets/styles/page-irvas.css');
+        wp_enqueue_style( 'irvas-slick-theme' , get_template_directory_uri() . '/assets/assets-irvas/slick/slick-theme.css');
+        wp_enqueue_style( 'irvas-slick' , get_template_directory_uri() . '/assets/assets-irvas/slick/slick.css');
+        wp_deregister_style('painting-style');
+        wp_deregister_style('painting-boot-style');
+        wp_deregister_style('bringitus-style');
+        wp_deregister_style('food-style');
+        wp_deregister_style('icrowdme-style');
+        wp_deregister_style('uber-style');
+        wp_deregister_style( 'korobskix-style' );
+        wp_deregister_style( 'pulse-style' );
+        wp_deregister_style( 'fmc-style' );
+        wp_deregister_style( 'anim-style' );
+        wp_deregister_script('korobskix-script');
+        wp_deregister_script('fmc-script');
+        wp_deregister_script('pulse-script');
+        wp_deregister_script('wow-script');
+        wp_deregister_script('slick-script');
+        wp_deregister_script('jquery-mirgate');
+        wp_deregister_script('uber-script');
+        wp_deregister_script( 'icrowdme-script' );
+        wp_deregister_script('food-script');
+        wp_deregister_script('bringitus-script');
+        wp_deregister_script('painting-script');
+        wp_enqueue_script( 'irvas-script' , get_template_directory_uri() . '/assets/js/irvas.js', array(), null , true );
+    }
+    if(is_page( '304' )){
+        wp_enqueue_style('bringitus-style', get_template_directory_uri() . '/assets/styles/page-bringitup.css');
+        wp_deregister_style('painting-style');
+        wp_deregister_style('painting-boot-style');
+        wp_deregister_style( 'irvas-style');
+        wp_deregister_style( 'irvas-slick-theme');
+        wp_deregister_style( 'irvas-slick');
+        wp_deregister_style('food-style');
+        wp_deregister_style('icrowdme-style');
+        wp_deregister_style('uber-style');
+        wp_deregister_style( 'korobskix-style' );
+        wp_deregister_style( 'pulse-style' );
+        wp_deregister_style( 'fmc-style' );
+        wp_deregister_style( 'anim-style' );
+        wp_deregister_script('korobskix-script');
+        wp_deregister_script('fmc-script');
+        wp_deregister_script('pulse-script');
+        wp_deregister_script('wow-script');
+        wp_deregister_script('slick-script');
+        wp_deregister_script('jquery-mirgate');
+        wp_deregister_script('uber-script');
+        wp_deregister_script( 'icrowdme-script' );
+        wp_deregister_script('food-script');
+        wp_deregister_script( 'irvas-script');
+        wp_deregister_script('painting-script');
+        wp_enqueue_script('bringitus-script', get_template_directory_uri() . '/assets/js/bringitup.js');
+    }
+    if(is_page( '307' )){
+        wp_enqueue_style('bringitus-style', get_template_directory_uri() . '/assets/styles/page-bringitup.css');
+        wp_deregister_style('painting-style');
+        wp_deregister_style('painting-boot-style');
+        wp_deregister_style('irvas-style');
+        wp_deregister_style('irvas-slick-theme');
+        wp_deregister_style('irvas-slick');
+        wp_deregister_style('food-style');
+        wp_deregister_style('icrowdme-style');
+        wp_deregister_style('uber-style');
+        wp_deregister_style( 'korobskix-style' );
+        wp_deregister_style( 'pulse-style' );
+        wp_deregister_style( 'fmc-style' );
+        wp_deregister_style( 'anim-style' );
+        wp_deregister_script('korobskix-script');
+        wp_deregister_script('fmc-script');
+        wp_deregister_script('pulse-script');
+        wp_deregister_script('wow-script');
+        wp_deregister_script('slick-script');
+        wp_deregister_script('jquery-mirgate');
+        wp_deregister_script('uber-script');
+        wp_deregister_script( 'icrowdme-script' );
+        wp_deregister_script('food-script');
+        wp_deregister_script( 'irvas-script');
+        wp_deregister_script('painting-script');
+        wp_enqueue_script('bringitus-script', get_template_directory_uri() . '/assets/js/bringitup.js');
+    }
+    if(is_page( '301' )){
+        wp_enqueue_style('painting-style', get_template_directory_uri() . '/assets/styles/page-painting.css');
+        wp_enqueue_style('painting-boot-style', get_template_directory_uri() . '/assets/styles/page-bootstrap.css');
+        wp_deregister_style('bringitus-style');
+        wp_deregister_style( 'irvas-style');
+        wp_deregister_style( 'irvas-slick-theme');
+        wp_deregister_style( 'irvas-slick');
+        wp_deregister_style('food-style');
+        wp_deregister_style('icrowdme-style');
+        wp_deregister_style('uber-style');
+        wp_deregister_style( 'korobskix-style' );
+        wp_deregister_style( 'pulse-style' );
+        wp_deregister_style( 'fmc-style' );
+        wp_deregister_style( 'anim-style' );
+        wp_deregister_script('korobskix-script');
+        wp_deregister_script('fmc-script');
+        wp_deregister_script('pulse-script');
+        wp_deregister_script('wow-script');
+        wp_deregister_script('slick-script');
+        wp_deregister_script('jquery-mirgate');
+        wp_deregister_script('uber-script');
+        wp_deregister_script( 'icrowdme-script' );
+        wp_deregister_script('food-script');
+        wp_deregister_script( 'irvas-script');
+        wp_deregister_script('bringitus-script');
+        wp_enqueue_script('painting-script', get_template_directory_uri() . '/assets/js/painting.js');
     }
     
 };
